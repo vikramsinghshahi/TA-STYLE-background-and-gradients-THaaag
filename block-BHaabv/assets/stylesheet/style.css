@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*custom editing*/
+
+body{ background-color: rgb(32,34,47);}
+
+.container { max-width: 1200px;
+margin: 0 auto;
+padding-top: 50px;}
+
+.flex { display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.heading h1,h3{ font-size: 30px;
+    font-weight: 500;
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.heading p{color: lightsteelblue;
+line-height: 1.5; 
+font-weight: 600;
+letter-spacing: 1px;}
+
+.button { background-color:  rgb(32,34,47);}
+.button a{ text-decoration: none;
+color: lightsteelblue;}
+
+.button i { padding-left: 20px;
+font-size: 30px;
+vertical-align: middle;
+color: rgb(62,193,162);}
+
+.box { width: 22%;
+    height: 200px;
+background-color: rgb(37,43,67);
+text-align: center;
+border-top-left-radius: 2px;
+    border-top-right-radius: 2px;}
+
+    .box h2{ font-size: 50px;
+    color: white;
+    font-weight: 900;
+    font-family:'Roboto', sans-serif;
+    padding-top: 30px;
+    
+}
+.box p{ font-family: 'Roboto', sans-serif;
+letter-spacing: 5px;
+color: steelblue;
+padding-bottom: 30px;}
+
+.box small{ color: rgb(13, 107, 95);
+font-family:'Roboto', sans-serif ;}
+
+.box .down{ color: red;}
+
+
+.box a{ text-decoration: none;
+color: steelblue;
+font-family:'Roboto', sans-serif;
+}
+
+ .box a i{padding-right: 10px;
+color: rgb(22,143,247);}
+
+.box .insta i{ color: rgb(160, 46, 59);
+font-size: 24px;
+vertical-align: middle;}
+.box .u-tube i{ color: rgb(212, 50, 50);
+    font-size: 22px;
+    vertical-align: middle;}
+
+    .border {
+        background-color: rgb(48,143,205);
+        height: 4px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        margin-bottom: 20px;
+      }
+    
+      .border-2{ background: linear-gradient(rgb(245, 147, 82),rgb(226,123,133));}
+      .border-3 { background: radial-gradient(rgb(224, 8, 55),rgb(184,8,45));}
+
+/*section*/
+h3 { padding-bottom: 30px;}
+
+.box-2 { width: 22%;
+height: 100px;
+background-color: rgb(37,43,67);
+margin-bottom: 30px;
+}
+
+
+h4 { font-size: 26px;
+font-family:  'Roboto', sans-serif;
+color: white;
+font-weight: 800;}
+
+.col { padding-left: 20px;}
+.col-2 { padding-right: 20px;}
+
+.col p { color: steelblue;
+font-size: 15px;
+font-family:'Roboto', sans-serif ;
+padding-bottom: 30px;}
+
+.section-2 .flex{ flex-wrap: wrap;}
+
+.col-2 p { color: rgb(13, 107, 95);
+font-family:  'Roboto', sans-serif;
+font-weight: 800;
+padding-top: 30px;}
+
+.col-2 .down { color: rgb(250, 91, 91);}
+
+.col-2 .col-2-icon {color: rgb(22,143,247);
+font-size: 22px;}
+
+.col-2 .col-2-icon-2 {color: rgb(160, 46, 59);
+    font-size: 24px;}
+
+    .col-2 .col-2-icon-3  {color: rgb(22,143,247);
+        font-size: 22px;}
+
+        .col-2 .col-2-icon-4 {color: rgb(212, 50, 50);
+            font-size: 22px;}
